@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #image {
+            width: 125px;
+            height: 120px;
+            border-radius: 50%;
+            margin-left: 46%;
+            margin-top: 5%;
+        }
+
+        .box {
+            width: 250px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-left: 4%;
+            margin-top: 1%;
+            padding-top: 5px;
+        }
+
+        .box-2 {
+            width: 250px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-left: 4%;
+            margin-top: 1%;
+            padding-top: 5px;
+        }
+
+        .pengalaman {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 90;
+        }
+
+        iframe{
+            border: 2px solid black;
+        }
+
+        .tabb {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 95;
+        }
+
+        .footer {
+            text-align: center;
+        }
+    </style>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="home.html" class="home">Home</a> |
+            <a href="profil/CV buat P5 bang.pdf" class="download">Download CV</a> |
+            <a href="contact-me.html" class="contact">Contact Me</a> |
+            <a href="about-me.html" class="about">About Me</a>
+        </nav>
+
+        <hr align="center">
+    </header>
+    <img src="1691562781525.jpg" alt="" id="image">
+    <h3 class="name" align="center" style="font-family: 'Times New Roman', Times, serif;">Isaiah Tino Surya Saputra</h3>
+
+    <p align="center" style="font-family: Arial, Helvetica, sans-serif;">(Click to add text)</p>
+    <hr>
+
+    <h3 align="center">Overview</h3>
+    <p align="center" style="font-family: Arial, Helvetica, sans-serif;">Hi, saya saat ini sedang belajar web developer
+        di SMKN 2 Surakarta</p>
+
+    <div>
+        <article class="tabb">
+            <table style="width: 300px;" border="1px solid black">
+                <tr>
+                    <th>Skill</th>
+                </tr>
+            </table><br>
+            <table style="width: 300px;" border="1px solid black">
+                <tr>
+                    <th>Pengalaman</th>
+                </tr>
+            </table>
+        </article>
+    
+        <article class="pengalaman">
+            <iframe src="skill.html" width="300" height="100"></iframe>
+            <iframe src="pengalaman.html" width="300" height="100"></iframe>
+        </article>
+    </div>
+</body><hr>
+<footer>
+    <p align="center" style="font-family: Arial, Helvetica, sans-serif;">© 2023 Isaiah Tino Surya Saputra</p>
+</footer>
+
+</html>
